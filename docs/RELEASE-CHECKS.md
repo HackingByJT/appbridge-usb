@@ -23,7 +23,7 @@ The distribution includes a payload manifest with each file's SHA-256 and `SHA25
 
 No automated test suite was added or run. The artifacts are unsigned. A successful build or UI observation does not establish the pending behavior above.
 
-CI performs compilation and packaging only. Consult the repository's actual workflow run for its outcome; this document does not substitute a local build for a successful CI run.
+The [initial public CI run](https://github.com/HackingByJT/appbridge-usb/actions/runs/40073374903) completed successfully on Windows Server 2022: checkout, pinned NSIS download, compilation, packaging and artifact retention. CI performs compilation and packaging only; it does not run the application or installer. Consult the repository's actual workflow run for later outcomes.
 
 ## Withdrawing a broken beta
 

@@ -112,7 +112,7 @@ Para enviar comentarios, incluye la versión de AppBridge USB y Windows, modelo 
 | Interfaz del lanzador sin teléfono conectado | Abierta y observada |
 | Sesión Android mediante la nueva interfaz del lanzador | Todavía no verificada |
 | Instalación y desinstalación del paquete | Todavía no observadas |
-| Compilación en GitHub Actions | Todavía no observada |
+| Primera compilación en GitHub Actions | [Correcta](https://github.com/HackingByJT/appbridge-usb/actions/runs/40073374903) |
 
 Estas observaciones no establecen compatibilidad con una app o dispositivo Android concretos. Consulta las [comprobaciones detalladas de la release](https://github.com/HackingByJT/appbridge-usb/blob/main/docs/RELEASE-CHECKS.md) para conocer el alcance observado y los puntos pendientes.
 

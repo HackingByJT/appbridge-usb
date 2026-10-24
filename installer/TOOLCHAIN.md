@@ -47,7 +47,7 @@ The portable ZIP contains the same eight payload files at its root and can be ex
 
 The workflow builds on pushes, pull requests and manual `workflow_dispatch`. It downloads and verifies the pinned portable compiler, builds both executables, then retains the installer, ZIP, payload manifest and checksums as workflow artifacts for 14 days. It has read-only repository permissions. It does not publish a GitHub Release, run the generated installer, connect to Android, or run tests.
 
-These are unsigned beta artifacts. Successful compilation does not establish correct installation, uninstallation, UI behavior, USB support or Android app compatibility. Record those observations separately when a person performs them. CI itself remains unobserved until the repository is uploaded and a workflow run completes.
+These are unsigned beta artifacts. Successful compilation does not establish correct installation, uninstallation, UI behavior, USB support or Android app compatibility. Record those observations separately when a person performs them. The [initial public CI run](https://github.com/HackingByJT/appbridge-usb/actions/runs/40073374903) completed compilation, packaging and artifact retention successfully.
 
 ## Primary references
 

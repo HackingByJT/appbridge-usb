@@ -22,5 +22,5 @@ First beta. See the repository's [Releases page](https://github.com/HackingByJT/
 - Device audio can include other apps and notifications. Panel off is separate from Android's PIN lock.
 - No APKs, app content, accounts or streams are included. No app authentication or content protection is changed.
 - Both application executables, the installer and the portable ZIP compiled successfully locally. The launcher interface was opened and observed without a phone.
-- An Android session through the new launcher interface, installer installation/removal and GitHub Actions execution have not yet been observed.
+- The [initial GitHub Actions build](https://github.com/HackingByJT/appbridge-usb/actions/runs/40073374903) compiled and packaged successfully. An Android session through the new launcher interface and installer installation/removal have not yet been observed.
 - These observations do not establish compatibility with any particular Android device or app.

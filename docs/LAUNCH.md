@@ -25,7 +25,7 @@ Repository topics: `android`, `adb`, `scrcpy`, `usb`, `windows`, `windows-11`, `
 5. Document first use, runtime location, package validation, app restarts, scoped fullscreen keys, device audio and retained runtime components accurately.
 6. Use a GitHub prerelease, attach the final assets and hashes, and verify the public links after publication.
 
-For 0.1.0-beta, both executables, the installer and the portable ZIP compiled locally, and the launcher UI was observed without a phone. An Android session through the new GUI, installer installation/removal and GitHub Actions execution have not yet been observed. These are the current validation limits.
+For 0.1.0-beta, both executables, the installer and the portable ZIP compiled locally, and the launcher UI was observed without a phone. The [initial GitHub Actions build](https://github.com/HackingByJT/appbridge-usb/actions/runs/40073374903) also compiled and packaged successfully. An Android session through the new GUI and installer installation/removal have not yet been observed. These are the current validation limits.
 
 Private vulnerability reporting is enabled. The reporting channel is documented in [SECURITY.md](../SECURITY.md).
 
