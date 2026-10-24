@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">AppBridge USB — Android apps, connected to Windows</title>
+  <desc id="desc">Original conceptual illustration of a physical phone connected by USB to a separate app window. This is not a product screenshot.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101e32"/>
+      <stop offset="1" stop-color="#07131f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#55e8dc"/>
+      <stop offset="1" stop-color="#b8ef83"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#background)"/>
+  <path d="M0 508H1280M930 0V640" stroke="#213449" stroke-width="1" opacity="0.5"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="72" y="58" width="150" height="32" rx="16" fill="#20394b"/>
+    <text x="147" y="80" fill="#b8ef83" text-anchor="middle" font-size="15" letter-spacing="2">0.1.0 BETA</text>
+    <text x="72" y="161" fill="#f1f7fb" font-size="64" font-weight="700" letter-spacing="-2">AppBridge USB</text>
+    <text x="76" y="205" fill="#b9cbdc" font-size="25">Your Android app. A Windows window. USB.</text>
+    <g transform="translate(105 255)">
+      <rect width="120" height="204" rx="20" fill="#14283b" stroke="#7cb3c6" stroke-width="3"/>
+      <rect x="12" y="21" width="96" height="158" rx="6" fill="#0b1929"/>
+      <rect x="43" y="9" width="34" height="4" rx="2" fill="#7cb3c6"/>
+      <rect x="25" y="40" width="70" height="29" rx="6" fill="#2c5d69"/>
+      <rect x="25" y="79" width="70" height="8" rx="4" fill="#496477"/>
+      <rect x="25" y="97" width="48" height="8" rx="4" fill="#496477"/>
+      <circle cx="60" cy="139" r="20" fill="#55e8dc"/>
+      <path d="M53 139h14M60 132v14" stroke="#0b1929" stroke-width="3" stroke-linecap="round"/>
+      <text x="60" y="237" fill="#b9cbdc" text-anchor="middle" font-size="19">Physical Android</text>
+    </g>
+    <path d="M251 355H490" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
+    <path d="m477 343 14 12-14 12" fill="none" stroke="#b8ef83" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="326" y="332" width="80" height="44" rx="22" fill="#183346" stroke="#446278"/>
+    <text x="366" y="360" fill="#9feee4" text-anchor="middle" font-size="18" font-weight="600">USB</text>
+    <g transform="translate(520 255)">
+      <rect width="518" height="204" rx="12" fill="#14283b" stroke="#7cb3c6" stroke-width="3"/>
+      <path d="M1 33H517" stroke="#446278"/>
+      <circle cx="20" cy="17" r="4" fill="#55e8dc"/>
+      <text x="36" y="23" fill="#b9cbdc" font-size="14">Android virtual display</text>
+      <rect x="197" y="47" width="124" height="144" rx="7" fill="#0b1929"/>
+      <rect x="212" y="59" width="94" height="25" rx="6" fill="#2c5d69"/>
+      <rect x="212" y="94" width="94" height="7" rx="3" fill="#496477"/>
+      <rect x="212" y="110" width="62" height="7" rx="3" fill="#496477"/>
+      <circle cx="259" cy="152" r="20" fill="#55e8dc"/>
+      <path d="M252 152h14M259 145v14" stroke="#0b1929" stroke-width="3" stroke-linecap="round"/>
+      <text x="259" y="237" fill="#b9cbdc" text-anchor="middle" font-size="19">Windows session</text>
+    </g>
+    <rect x="72" y="550" width="4" height="37" rx="2" fill="url(#accent)"/>
+    <text x="92" y="566" fill="#f1f7fb" font-size="18">Powered by scrcpy · Independent beta project</text>
+    <text x="92" y="592" fill="#88a2b9" font-size="15">Conceptual illustration · Physical Android device required · Apache-2.0</text>
+  </g>
+</svg>
