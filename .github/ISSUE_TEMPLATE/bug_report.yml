@@ -1,0 +1,33 @@
+name: Compatibility or bug report
+description: Report a reproducible issue with AppBridge USB.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Include only the details needed to reproduce the issue. Remove account details, device serials and private screen content."
+  - type: input
+    id: version
+    attributes:
+      label: AppBridge USB version
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Windows version, phone model and Android version
+    validations:
+      required: true
+  - type: input
+    id: package
+    attributes:
+      label: Android package (if relevant)
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps, expected result and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Selected options and additional context

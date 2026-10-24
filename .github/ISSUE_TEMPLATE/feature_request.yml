@@ -1,0 +1,16 @@
+name: Feature request
+description: Describe the task you want to accomplish.
+title: "[Feature] "
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: What are you trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior and alternatives
+    validations:
+      required: true
